@@ -10,7 +10,7 @@ function App() {
     firstname: "Jessel",
     lastname: "Zapanta",
     username: "Jezyk",
-    email: "jessezapanta9@gmai.com",
+    email: "jessezapanta9@gmail.com",
     zipcode: "7200",
     lat: "8.1094",
     lng: "123.7909",
@@ -94,6 +94,20 @@ function App() {
           </table>
         </div>
       )}
+      <footer class="bg-gray-900 text-gray-300 py-4 mt-10">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+
+          <p class="text-sm">
+            Data provided by
+            <span class="text-blue-400 font-semibold">JSONPlaceholder</span>
+          </p>
+
+          <p class="text-xs text-gray-500 mt-1">
+            © 2026 Your App. All rights reserved.
+          </p>
+
+        </div>
+      </footer>
     </div>
   );
 }
