@@ -72,8 +72,8 @@ function App() {
                 <th className="py-3 px-4 border dark:border-gray-700">Lastname</th>
                 <th className="py-3 px-4 border dark:border-gray-700">Username</th>
                 <th className="py-3 px-4 border dark:border-gray-700">Email</th>
-                <th className="py-3 px-4 border dark:border-gray-700">Address</th>
                 <th className="py-3 px-4 border dark:border-gray-700">Zipcode</th>
+                <th className="py-3 px-4 border dark:border-gray-700">Address</th>
                 <th className="py-3 px-4 border dark:border-gray-700">Latitude</th>
                 <th className="py-3 px-4 border dark:border-gray-700">Longitude</th>
               </tr>
@@ -90,8 +90,8 @@ function App() {
                   <td className="py-2 px-4 border dark:border-gray-700">{user.lastname}</td>
                   <td className="py-2 px-4 border dark:border-gray-700">{user.username}</td>
                   <td className="py-2 px-4 border dark:border-gray-700">{user.email}</td>
-                  <td className="py-2 px-4 border dark:border-gray-700">{user.address}</td>
                   <td className="py-2 px-4 border dark:border-gray-700">{user.zipcode}</td>
+                  <td className="py-2 px-4 border dark:border-gray-700">{user.address}</td>
                   <td className="py-2 px-4 border dark:border-gray-700">{user.lat}</td>
                   <td className="py-2 px-4 border dark:border-gray-700">{user.lng}</td>
                 </tr>
@@ -109,7 +109,7 @@ function App() {
           </p>
 
           <p className="text-xs text-gray-500 mt-1">
-            © 2026 Your App. All rights reserved.
+              © 2026 Jessel Zapanta
           </p>
         </div>
       </footer>
